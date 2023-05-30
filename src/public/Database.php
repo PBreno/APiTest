@@ -13,10 +13,7 @@ class Database
                                  private string $user,
                                  private string $password)
     {
-        $this->host = $host;
-        $this->name = $name;
-        $this->user = $user;
-        $this->password = $password;
+
     }
 
     public function getConnection(): PDO
